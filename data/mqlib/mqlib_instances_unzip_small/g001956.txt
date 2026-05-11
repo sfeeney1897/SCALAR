@@ -1,0 +1,10 @@
+# NAME: dw5
+# COMMENT: From Graph Theory by Douglas West,  pg 4, bipartite graph
+8 7
+1 5 1
+2 6 1
+3 7 1
+3 8 1
+2 5 1
+4 5 1
+4 6 1

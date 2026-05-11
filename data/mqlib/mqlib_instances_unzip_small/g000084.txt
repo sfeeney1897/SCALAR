@@ -1,0 +1,5 @@
+# NAME: p77
+# COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm
+3 2
+1 2 1
+2 3 1

@@ -1,0 +1,23 @@
+# NAME: myciel3
+# COMMENT: c FILE: myciel3.col, c SOURCE: Michael Trick (trick@cmu.edu), c DESCRIPTION: Graph based on Mycielski transformation. , c              Triangle free (clique number 2) but increasing, c              coloring number
+11 20
+1 2 1
+1 4 1
+1 7 1
+1 9 1
+2 3 1
+2 6 1
+2 8 1
+3 5 1
+3 7 1
+3 10 1
+4 5 1
+4 6 1
+4 10 1
+5 8 1
+5 9 1
+6 11 1
+7 11 1
+8 11 1
+9 11 1
+10 11 1

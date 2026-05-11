@@ -1,0 +1,107 @@
+fname,n,m,comments
+g000072.zip,8,12,NAME: cube_8 || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # cube on 8 # chromatic number 2 # maximum independent set 4
+g000084.zip,3,2,"NAME: p77 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000096.zip,10,15,"NAME: a10_peterson || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic peterson A"
+g000133.zip,8,21,"NAME: a8_turan || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic example 3.6 A turan graphs"
+g000134.zip,8,14,NAME: wheel_8 || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # wheel graph on 8 # chromatic number 4 # maximum independent set 3
+g000142.zip,16,18,"NAME: es10fst15. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst15"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g000186.zip,10,15,"NAME: antiwheel5. || COMMENT: 33D32945 STP File, STP Format Version 1.0"
+g000205.zip,7,21,NAME: Simplex random graph using rudy library in python. Weights computed via the uniform distribution. || COMMENT: Graph parameters: dim=6; seed=-1; sum=1 Weight distribution parameters: a=9.0; b=14.0; seed=1729. || TYPE: Random Graphs
+g000208.zip,5,5,"NAME: dw14 || COMMENT: From Graph Theory by Douglas West, Pg12, bull"
+g000290.zip,20,50,"NAME: p11 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000293.zip,4,3,"NAME: dw11 || COMMENT: From Graph Theory by Douglas West, Page 12, claw"
+g000338.zip,8,22,"NAME: p75 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000360.zip,12,30,"NAME: p4 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000365.zip,17,68,"NAME: a17_ramsey || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic ramsey A"
+g000368.zip,7,9,"NAME: oddwheel3. || COMMENT: 33D32945 STP File, STP Format Version 1.0"
+g000382.zip,16,15,NAME: bondy_murty_4 || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # bondy murty G_4 # chromatic number 3 # maximum independent set 9
+g000387.zip,20,50,"NAME: b20_Praust || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, nonisomorphic Praust B"
+g000411.zip,14,13,"NAME: es10fst07. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst07"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g000449.zip,4,5,"NAME: dw9 || COMMENT: From Graph Theory by Douglas West, pg 11, 4 cycle with a chord"
+g000477.zip,3,3,NAME: Simplex random graph using rudy library in python. Weights computed via the uniform integer distribution. || COMMENT: Graph parameters: dim=2; seed=-1; sum=1 Weight distribution parameters: a=10.0; b=25.0; seed=1729. || TYPE: Random Graphs
+g000478.zip,5,6,"NAME: dw3 || COMMENT: From Graph Theory by Douglas West, Page 3, 5 cycle with a chord."
+g000603.zip,13,12,"NAME: es10fst12. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst12"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g000606.zip,17,68,NAME: i70.txt || COMMENT: \f0\fs26 \cf0 #http://www.maths.gla.ac.uk/~es/srgraphs.html\
+g000650.zip,18,20,"NAME: es10fst01. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst01"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g000658.zip,17,68,"NAME: p6 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000691.zip,15,45,NAME: i50.txt || COMMENT: \f0\fs26 \cf0 #http://www.maths.gla.ac.uk/~es/srgraphs.html\
+g000699.zip,20,30,"NAME: p7 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000726.zip,6,9,"NAME: oddcycle3. || COMMENT: 33D32945 STP File, STP Format Version 1.0"
+g000756.zip,3,3,NAME: Simplex random graph using rudy library in python. Weights computed via the pareto distribution. || COMMENT: Graph parameters: dim=2; seed=-1; sum=1 Weight distribution parameters: alpha=2.6474285539; seed=1729. || TYPE: Random Graphs
+g000780.zip,13,39,"NAME: p39 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000820.zip,10,15,"NAME: p2 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000821.zip,11,55,NAME: Simplex random graph using rudy library in python. Weights computed via the beta distribution. || COMMENT: Graph parameters: dim=10; seed=-1; sum=1 Weight distribution parameters: alpha=10.0; beta=1.0; seed=1729. || TYPE: Random Graphs
+g000888.zip,14,63,"NAME: p50 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g000906.zip,20,60,NAME: Simplex random graph using rudy library in python. Weights computed via the log normal distribution. || COMMENT: Graph parameters: dim=3; seed=-1; sum=3 Weight distribution parameters: mu=-14.3863239214; sigma=7.58486795343; seed=1729. || TYPE: Random Graphs
+g000944.zip,13,20,"NAME: se03. || COMMENT: 33D32945 STP File, STP Format Version 1.0"
+g001055.zip,6,12,NAME: octahedron || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # octahedron # chromatic number 3 # maximum independent set 2
+g001056.zip,20,50,"NAME: a20_praust || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, nonisomorphic Praust A"
+g001090.zip,12,30,"NAME: p3 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001102.zip,11,28,NAME: bondy_murty_2 || COMMENT: http://www.dharwadker.org/vertex_coloring/ # bondy-murty G_2 # chromatic number 3 # maximum independent set 4
+g001125.zip,16,48,"NAME: p57 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001130.zip,11,33,"NAME: p20 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001140.zip,18,21,"NAME: es10fst10. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst10"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g001267.zip,17,20,"NAME: es10fst06. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst06"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g001272.zip,9,36,NAME: Simplex random graph using rudy library in python. Weights computed via the beta distribution. || COMMENT: Graph parameters: dim=8; seed=-1; sum=1 Weight distribution parameters: alpha=2.0; beta=2.0; seed=1729. || TYPE: Random Graphs
+g001284.zip,20,26,"NAME: p66 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001291.zip,4,6,NAME: tetrahedron || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # Tetrahedron # chromatic number 4 # maximum independent set 1
+g001318.zip,20,26,"NAME: p65 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001338.zip,5,4,"NAME: dw4 || COMMENT: From Graph Theory by Douglas West, page 3, complement of dw3"
+g001341.zip,13,39,NAME: i40.txt || COMMENT: \f0\fs26 \cf0 #http://www.maths.gla.ac.uk/~es/srgraphs.html\
+g001363.zip,4,6,NAME: Simplex random graph using rudy library in python. Weights computed via the uniform integer distribution. || COMMENT: Graph parameters: dim=3; seed=-1; sum=1 Weight distribution parameters: a=7.0; b=82.0; seed=1729. || TYPE: Random Graphs
+g001439.zip,16,48,"NAME: p58 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001466.zip,8,20,"NAME: design432. || COMMENT: 33D32945 STP File, STP Format Version 1.0"
+g001498.zip,8,12,"NAME: dw18 || COMMENT: From Graph Theory by Douglas West, Pg15, exercise 1.1.8"
+g001511.zip,7,12,NAME: bondy_murty_1 || COMMENT: http://www.dharwadker.org/vertex_coloring/ # bondy murty G_1 # chromatic number 4 # maximum independent set 3
+g001567.zip,16,40,NAME: i20.txt || COMMENT: \f0\fs26 \cf0 #http://www.maths.gla.ac.uk/~es/srgraphs.html\
+g001578.zip,17,68,"NAME: p5 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001652.zip,20,30,"NAME: b20_dodecahedron || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic dodecahedron B"
+g001688.zip,3,3,"NAME: p78 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001712.zip,4,4,"NAME: dw12 || COMMENT: From Graph Theory by Douglas West, Pg12, paw"
+g001759.zip,11,33,"NAME: p19 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001760.zip,6,9,"NAME: dw6 || COMMENT: From Graph Theory by Douglas West, Pg 10, six cycle with diagonal chords."
+g001767.zip,10,15,"NAME: dw17 || COMMENT: From Graph Theory by Douglas West, Pg13, peterson graph"
+g001781.zip,10,15,"NAME: p1 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001820.zip,10,15,NAME: i30.txt || COMMENT: \f0\fs26 \cf0 #http://www.maths.gla.ac.uk/~es/srgraphs.html\
+g001872.zip,18,48,"NAME: p61 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001877.zip,14,21,"NAME: bondy_murty_3 || COMMENT: http://www.dharwadker.org/vertex_coloring/,  bondy murty G_3, chromatic number 2, # maximum independent set 7"
+g001940.zip,20,30,NAME: dodecahedron || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # dodecahedron # chromatic number 3 # maximum independent set 8
+g001948.zip,5,10,NAME: Simplex random graph using rudy library in python. Weights computed via the triangular distribution. || COMMENT: Graph parameters: dim=4; seed=-1; sum=1 Weight distribution parameters: low=-10.0; high=99.0; mode=75.8094159503; seed=1729. || TYPE: Random Graphs
+g001956.zip,8,7,"NAME: dw5 || COMMENT: From Graph Theory by Douglas West,  pg 4, bipartite graph"
+g001967.zip,18,48,"NAME: p62 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g001976.zip,8,16,"NAME: dw19 || COMMENT: From Graph Theory by Douglas West, Pg15, exercise 1.1.8 second graph"
+g001979.zip,11,20,"NAME: myciel3 || COMMENT: c FILE: myciel3.col, c SOURCE: Michael Trick (trick@cmu.edu), c DESCRIPTION: Graph based on Mycielski transformation. , c              Triangle free (clique number 2) but increasing, c              coloring number"
+g002023.zip,11,20,NAME: grotzsch || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # grotzsch graph # chromatic number 4 # maximum independent set 5
+g002063.zip,6,9,"NAME: dw8 || COMMENT: From Graph Theory by Douglas West,  pg 10, G_4"
+g002095.zip,8,19,"NAME: dw21 || COMMENT: From Graph Theory by Douglas West, 5 regular graph, page 16, exercise 1.1.16"
+g002129.zip,12,24,NAME: chvatal_12 || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # chvatal on 12 vertices # chromatic number 4
+g002186.zip,5,6,"NAME: dw15 || COMMENT: From Graph Theory by Douglas West, Pg12, bow tie"
+g002189.zip,9,36,NAME: Simplex random graph using rudy library in python. Weights computed via the constant distribution. || COMMENT: Graph parameters: dim=8; seed=-1; sum=1 Weight distribution parameters: alpha=10.0; seed=1729. || TYPE: Random Graphs
+g002206.zip,6,9,"NAME: kuratowski || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # kuratowski bipartite graph K3,3 # chromatic number 2 # maximum independent set 3"
+g002218.zip,10,15,"NAME: b10_peterson || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic peterson B"
+g002248.zip,18,21,"NAME: es10fst13. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst13"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g002262.zip,17,68,"NAME: ramsey_4_4 || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # ramsey graph R(4,4)# chromatic number 6 # maximum independent set 3"
+g002338.zip,20,40,NAME: folkman || COMMENT: # http://www.dharwadker.org/independent_set/ # folkman graph # maximum independent set 10
+g002347.zip,13,39,"NAME: p40 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g002354.zip,6,8,"NAME: dw7 || COMMENT: From Graph Theory by Douglas West, Pg 10, Cubic graph"
+g002397.zip,8,22,"NAME: p76 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g002424.zip,20,50,"NAME: p12 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g002428.zip,12,30,"NAME: b12_icosahedron || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic icosahedron B"
+g002442.zip,5,6,"NAME: dw16 || COMMENT: From Graph Theory by Douglas West, Pg12, dart"
+g002497.zip,12,11,"NAME: es10fst05. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst05"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g002511.zip,6,10,"NAME: dw20 || COMMENT: From Graph Theory by Douglas West, page 15, exercise 1.1.11"
+g002521.zip,20,30,"NAME: p8 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g002609.zip,12,30,"NAME: a12_icosahedron || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic icosahedron A"
+g002635.zip,18,20,"NAME: es10fst04. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst04"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g002651.zip,14,13,"NAME: es10fst02. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst02"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g002663.zip,9,18,NAME: i190.txt || COMMENT: \f0\fs26 \cf0 #http://www.maths.gla.ac.uk/~es/srgraphs.html\
+g002667.zip,14,13,"NAME: es10fst11. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst11"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g002672.zip,20,30,"NAME: a20_dodecahedron || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic dodecahedron A"
+g002737.zip,8,21,"NAME: b8_turan || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic example 3.6 B Turan graphs"
+g002760.zip,12,30,NAME: icosahedron || COMMENT: # http://www.dharwadker.org/vertex_coloring/ # icosahedron # chromatic number 4 # maximum independent set 3
+g002766.zip,8,12,"NAME: dw2 || COMMENT: From Graph Theory by Douglas West, Page 3, 2-D cube"
+g002909.zip,11,18,NAME: herschel || COMMENT: # http://www.dharwadker.org/independent_set/ # herschel graph # maximum independent set 6
+g002942.zip,14,63,"NAME: p49 || COMMENT: # graphs from a website, used for isomorphism testing. # http://funkybee.narod.ru/graphs.htm"
+g003183.zip,17,20,"NAME: es10fst03. || COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    ""es10fst03"", Creator ""Martin Zachariasen, David Warme"", Remark  ""Reduced rectilinear graph from FST generator GeoSteiner"", End"
+g003184.zip,17,68,"NAME: b17_ramsey || COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic Ramsey B"
+g003199.zip,20,187,"NAME: pr_1b.txt || COMMENT: Processed from file bqpgka.txt from https://files.nyu.edu/jeb21/public/jeb/orlib/bqpinfo.html; Pardalos and Rogers (1989) file 1b, labeled as ""Gulati experiments"""

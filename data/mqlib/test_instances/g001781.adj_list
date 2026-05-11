@@ -1,0 +1,13 @@
+#/home/sfeen/projects/symbolic_ai/github/get_unweighted.py
+# GMT Mon May 11 19:53:00 2026
+# 
+1 2 5 7
+2 3 8
+5 4 6
+7 9 10
+3 4 9
+8 6 10
+4 10
+9 6
+10
+6

@@ -1,0 +1,18 @@
+# NAME: b10_peterson
+# COMMENT: http://www.dharwadker.org/tevet/isomorphism/main.html, isomorphic peterson B
+10 15
+1 4 1
+1 6 1
+1 10 1
+2 4 1
+2 5 1
+2 7 1
+3 7 1
+3 8 1
+3 10 1
+4 8 1
+5 9 1
+5 10 1
+6 7 1
+6 9 1
+8 9 1

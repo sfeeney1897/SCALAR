@@ -1,0 +1,21 @@
+# NAME: es10fst15.
+# COMMENT: 33d32945 STP File, STP Format Version 1.00, Section Comment, Name    "es10fst15", Creator "Martin Zachariasen, David Warme", Remark  "Reduced rectilinear graph from FST generator GeoSteiner", End
+16 18
+2 11 243146
+2 8 902560
+7 11 600564
+12 13 475373
+1 14 475373
+1 12 819765
+1 11 2463719
+4 13 251525
+4 6 1078922
+4 12 726898
+13 14 819765
+14 15 3156513
+3 15 2274493
+9 16 1795014
+9 15 842671
+5 16 2912151
+5 13 3560452
+10 16 825508

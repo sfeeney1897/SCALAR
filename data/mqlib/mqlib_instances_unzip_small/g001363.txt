@@ -1,0 +1,10 @@
+# NAME: Simplex random graph using rudy library in python. Weights computed via the uniform integer distribution.
+# COMMENT: Graph parameters: dim=3; seed=-1; sum=1 Weight distribution parameters: a=7.0; b=82.0; seed=1729.
+# TYPE: Random Graphs
+4 6
+1 4 82
+1 3 74
+1 2 38
+2 4 41
+2 3 57
+3 4 20

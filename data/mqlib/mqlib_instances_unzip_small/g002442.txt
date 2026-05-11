@@ -1,0 +1,9 @@
+# NAME: dw16
+# COMMENT: From Graph Theory by Douglas West, Pg12, dart
+5 6
+1 2 1
+2 3 1
+3 4 1
+1 4 1
+1 3 1
+3 5 1
