@@ -32,11 +32,14 @@ data/       Benchmark and generated graph datasets
 If you use this repository, please cite:
 
 ```bibtex
-@article{feeney2026scalar,
-  title={SCALAR: A Neurosymbolic Framework for Automated Conjecture and Reasoning in Quantum Circuit Analysis},
-  author={Feeney, Sean and Rao, Pooja and Klappenecker, Andreas and others},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2026}
+@misc{feeney2026scalarneurosymbolicframeworkautomated,
+      title={SCALAR: A Neurosymbolic Framework for Automated Conjecture and Reasoning in Quantum Circuit Analysis}, 
+      author={Sean Feeney and Pooja Rao and Andreas Klappenecker and Reuben Tate and Yuri Alexeev and Stefano Mensa and Elica Kyoseva and Stephan Eidenbenz},
+      year={2026},
+      eprint={2605.10327},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2605.10327}, 
 }
 ```
 
