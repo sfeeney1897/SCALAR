@@ -74,12 +74,12 @@ Both `src/scaled_topologies/experimental/` and
 experiment (conjecture-derived optimizer initialization) that is **not
 reported in the current paper**. See its own README for what it is and why
 it's kept. One file there, `qaoa_sim_tnmps.py`, also underlies the paper's
-reported 77-qubit tensor-network demo — see that README for the distinction.
+reported 77-qubit tensor-network demo, see that README for the distinction.
 
 ## Reproducibility note
 
 Every script in `src/` was verified against its committed output in
-`results/` during the last cleanup pass — in particular, regenerating the
+`results/` during the last cleanup pass, in particular, regenerating the
 full `scaled_topologies` pipeline from `graphs.pkl` through `qaoa_sim.py`
 and `merge.py` reproduces `run_known_random_p1_merged.csv` exactly
 (1000/1000 rows matching). Where a script's original committed output
