@@ -1,0 +1,1143 @@
+
+============================================================
+LEVEL 1: STRATIFIED BY GRAPH MODEL
+============================================================
+
+--- model=barabasi | target=optimal_gamma | n=279 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 5, 'sophie': 0}, 'mixed': {'conjectures': 12, 'sophie': 0}}}
+Total conjectures: 17
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((56/15) · (mis)²) + (-4 · mis)) + (11/14)) ≤ optimal_gamma   [touches=0, support=279]
+
+Conjecture 2. ((((1/5) · (deg_mean)²) + -deg_mean) + (11/12)) ≤ optimal_gamma   [touches=0, support=279]
+
+Conjecture 3. ((((-5/8) · (clust_mean)²) + ((8/17) · clust_mean)) + (-5/19)) ≤ optimal_gamma   [touches=0, support=279]
+
+Conjecture 4. optimal_gamma ≤ (22/7)   [touches=0, support=279]
+
+Conjecture 5. optimal_gamma ≤ ((((-5/8) · (clust_mean)²) + ((1/4) · clust_mean)) + (22/7))   [touches=0, support=279]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi | target=approx_ratio | n=279 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 5, 'sophie': 0}, 'mixed': {'conjectures': 14, 'sophie': 0}}}
+Total conjectures: 19
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (13/17) ≤ approx_ratio   [touches=0, support=279]
+
+Conjecture 2. (((1/7) · deg_mean) + (3/5)) ≤ approx_ratio   [touches=0, support=279]
+
+Conjecture 3. approx_ratio ≤ ((((16/19) · (assortativity)²) + ((8/11) · assortativity)) + (13/12))   [touches=0, support=279]
+
+Conjecture 4. approx_ratio ≤ (((-1/10) · deg_mean) + (17/15))   [touches=0, support=279]
+
+Conjecture 5. approx_ratio ≤ ((((-4/13) · (mis)²) + ((9/19) · mis)) + (13/16))   [touches=0, support=279]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi | target=mean_n_obj_calls | n=279 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 2
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((2/17) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls   [touches=0, support=279]
+
+Conjecture 2. ((((5/3) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=279]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts | target=optimal_gamma | n=269 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 5, 'sophie': 0}, 'mixed': {'conjectures': 11, 'sophie': 0}}}
+Total conjectures: 16
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (clust_mean)²) + ((-1/7) · clust_mean)) + (-3/5)) ≤ optimal_gamma   [touches=0, support=269]
+
+Conjecture 2. ((((2/3) · (deg_mean)²) + ((-68/19) · deg_mean)) + 4) ≤ optimal_gamma   [touches=0, support=269]
+
+Conjecture 3. (-5/12) ≤ optimal_gamma   [touches=0, support=269]
+
+Conjecture 4. optimal_gamma ≤ ((((-16/17) · (clust_mean)²) + ((4/5) · clust_mean)) + 3)   [touches=0, support=269]
+
+Conjecture 5. optimal_gamma ≤ ((((-2/3) · (deg_mean)²) + (4 · deg_mean)) + (-23/10))   [touches=0, support=269]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts | target=approx_ratio | n=269 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 1, 'sophie': 0}, 'lp1': {'conjectures': 1, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 1, 'sophie': 0}, 'lp3': {'conjectures': 1, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 9, 'sophie': 0}}}
+Total conjectures: 15
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. approx_ratio ≤ ((1/2) · deg_mean)   [touches=3, support=269]
+
+Conjecture 2. approx_ratio ≤ 1   [touches=3, support=269]
+
+Conjecture 3. approx_ratio ≤ ((((-5/8) · (deg_mean)²) + ((15/4) · deg_mean)) + -4)   [touches=3, support=269]
+
+Conjecture 4. (((-1/14) · n) + (14/13)) ≤ approx_ratio   [touches=0, support=269]
+
+Conjecture 5. ((((7/18) · (deg_mean)²) + ((-29/12) · deg_mean)) + 4) ≤ approx_ratio   [touches=0, support=269]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts | target=mean_n_obj_calls | n=269 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 2
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((4/11) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls   [touches=0, support=269]
+
+Conjecture 2. ((((5/3) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=269]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm | target=optimal_gamma | n=279 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 6, 'sophie': 0}, 'mixed': {'conjectures': 10, 'sophie': 0}}}
+Total conjectures: 16
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((7/19) · deg_mean) + (-19/15)) ≤ optimal_gamma   [touches=0, support=279]
+
+Conjecture 2. (((-4 · (mis)²) + (-4 · mis)) + (13/6)) ≤ optimal_gamma   [touches=0, support=279]
+
+Conjecture 3. ((-(clust_mean)² + (4 · clust_mean)) + (-9/7)) ≤ optimal_gamma   [touches=0, support=279]
+
+Conjecture 4. optimal_gamma ≤ (((1/14) · n) + (8/3))   [touches=0, support=279]
+
+Conjecture 5. optimal_gamma ≤ ((((25/9) · (mis)²) + ((-35/16) · mis)) + (45/13))   [touches=0, support=279]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm | target=approx_ratio | n=279 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 9, 'sophie': 0}}}
+Total conjectures: 13
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((1/6) · (clust_mean)²) + ((-1/6) · clust_mean)) + (7/9)) ≤ approx_ratio   [touches=0, support=279]
+
+Conjecture 2. ((((2/15) · (assortativity)²) + ((3/19) · assortativity)) + (13/17)) ≤ approx_ratio   [touches=0, support=279]
+
+Conjecture 3. approx_ratio ≤ 1   [touches=0, support=279]
+
+Conjecture 4. approx_ratio ≤ ((((-1/7) · (assortativity)²) + ((-2/17) · assortativity)) + 1)   [touches=0, support=279]
+
+Conjecture 5. ((1/10) · √(deg_mean)) ≤ approx_ratio   [touches=0, support=279]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm | target=mean_n_obj_calls | n=279 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 3
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((30/17) · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=279]
+
+Conjecture 2. ((4 · m) + 4) ≤ mean_n_obj_calls   [touches=0, support=279]
+
+Conjecture 3. ((((22/17) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=279]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular | target=optimal_gamma | n=173 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 0, 'sophie': 0}, 'mixed': {'conjectures': 9, 'sophie': 0}}}
+Total conjectures: 9
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((-1/20) · deg_mean) + ((-1/14) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=173]
+
+Conjecture 2. ((-1/20) · deg_mean) ≤ optimal_gamma   [touches=0, support=173]
+
+Conjecture 3. ((-1/14) · √(deg_mean)) ≤ optimal_gamma   [touches=0, support=173]
+
+Conjecture 4. 0 ≤ optimal_gamma   [touches=0, support=173]
+
+Conjecture 5. optimal_gamma ≤ (((11/20) · deg_mean) + ((13/15) · √(deg_mean)))   [touches=0, support=173]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular | target=approx_ratio | n=173 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 2, 'sophie': 0}, 'lp1': {'conjectures': 1, 'sophie': 0}, 'sqrt': {'conjectures': 1, 'sophie': 0}, 'lp2': {'conjectures': 1, 'sophie': 0}, 'lp3': {'conjectures': 1, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 12, 'sophie': 0}}}
+Total conjectures: 16
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. approx_ratio ≤ ((1/2) · deg_mean)   [touches=9, support=173]
+
+Conjecture 2. approx_ratio ≤ 1   [touches=9, support=173]
+
+Conjecture 3. approx_ratio ≤ ((1/6) · n)   [touches=3, support=173]
+
+Conjecture 4. (12/13) ≤ approx_ratio   [touches=0, support=173]
+
+Conjecture 5. (((1/9) · deg_mean) + ((2/9) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=173]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular | target=mean_n_obj_calls | n=173 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 1, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 1
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (clust_mean)²) + (4 · clust_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=173]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+============================================================
+LEVEL 2: STRATIFIED BY SIZE
+============================================================
+
+--- size=small(n≤10) | target=optimal_gamma | n=349 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 14, 'sophie': 0}}}
+Total conjectures: 16
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((55/17) · (clust_mean)²) + ((-12/17) · clust_mean)) + (-1/2)) ≤ optimal_gamma   [touches=0, support=349]
+
+Conjecture 2. optimal_gamma ≤ ((((-4/9) · (clust_mean)²) + ((3/8) · clust_mean)) + (49/16))   [touches=0, support=349]
+
+Conjecture 3. (((-1/8) · deg_mean) + ((-3/17) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=349]
+
+Conjecture 4. (((-1/8) · deg_mean) + ((-1/16) · (deg_mean)²)) ≤ optimal_gamma   [touches=0, support=349]
+
+Conjecture 5. (((-1/8) · deg_mean) + ((-1/13) · √(n))) ≤ optimal_gamma   [touches=0, support=349]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- size=small(n≤10) | target=approx_ratio | n=349 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 1, 'sophie': 0}, 'lp1': {'conjectures': 1, 'sophie': 0}, 'sqrt': {'conjectures': 2, 'sophie': 0}, 'lp2': {'conjectures': 1, 'sophie': 0}, 'lp3': {'conjectures': 1, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 14, 'sophie': 0}}}
+Total conjectures: 21
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. approx_ratio ≤ 1   [touches=12, support=349]
+
+Conjecture 2. approx_ratio ≤ ((((1/20) · clust_mean) + ((-1/24) · √(clust_mean))) + 1)   [touches=12, support=349]
+
+Conjecture 3. approx_ratio ≤ ⌊(((3/10) · deg_mean) + √(mis))⌋   [touches=12, support=349]
+
+Conjecture 4. approx_ratio ≤ ⌊(((1/12) · n) + √(mis))⌋   [touches=12, support=349]
+
+Conjecture 5. approx_ratio ≤ ⌊(((1/12) · n) + ((1/5) · √(n)))⌋   [touches=8, support=349]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- size=small(n≤10) | target=mean_n_obj_calls | n=349 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 0, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 0
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- size=medium(n≤15) | target=optimal_gamma | n=328 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 5, 'sophie': 0}, 'mixed': {'conjectures': 15, 'sophie': 0}}}
+Total conjectures: 20
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((15/17) · (clust_mean)²) + ((-3/14) · clust_mean)) + (-1/2)) ≤ optimal_gamma   [touches=0, support=328]
+
+Conjecture 2. (((3/17) · deg_mean) + (-17/19)) ≤ optimal_gamma   [touches=0, support=328]
+
+Conjecture 3. (((-4 · (mis)²) + (-4 · mis)) + (29/15)) ≤ optimal_gamma   [touches=0, support=328]
+
+Conjecture 4. optimal_gamma ≤ ((((5/7) · (clust_mean)²) + ((-13/17) · clust_mean)) + (13/4))   [touches=0, support=328]
+
+Conjecture 5. optimal_gamma ≤ (22/7)   [touches=0, support=328]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- size=medium(n≤15) | target=approx_ratio | n=328 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 13, 'sophie': 0}}}
+Total conjectures: 16
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((4/15) · (assortativity)²) + ((8/19) · assortativity)) + (3/4)) ≤ approx_ratio   [touches=0, support=328]
+
+Conjecture 2. ((((25/11) · (mis)²) + ((-13/7) · mis)) + 1) ≤ approx_ratio   [touches=0, support=328]
+
+Conjecture 3. approx_ratio ≤ ((((-1/2) · (mis)²) + ((6/17) · mis)) + (12/13))   [touches=0, support=328]
+
+Conjecture 4. (((1/20) · deg_mean) + ((2/17) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=328]
+
+Conjecture 5. (((1/20) · deg_mean) + ((8/17) · √(mis))) ≤ approx_ratio   [touches=0, support=328]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- size=medium(n≤15) | target=mean_n_obj_calls | n=328 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 1, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 1
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((55/14) · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=328]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- size=large(n≤20) | target=optimal_gamma | n=323 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 5, 'sophie': 0}, 'mixed': {'conjectures': 15, 'sophie': 0}}}
+Total conjectures: 20
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((17/7) · (clust_mean)²) + ((7/10) · clust_mean)) + (-10/19)) ≤ optimal_gamma   [touches=0, support=323]
+
+Conjecture 2. (((5/11) · deg_mean) + (-21/13)) ≤ optimal_gamma   [touches=0, support=323]
+
+Conjecture 3. (((-4 · (mis)²) + (-4 · mis)) + (23/11)) ≤ optimal_gamma   [touches=0, support=323]
+
+Conjecture 4. optimal_gamma ≤ (63/20)   [touches=0, support=323]
+
+Conjecture 5. optimal_gamma ≤ ((((-2/5) · (mis)²) + ((4/9) · mis)) + (61/20))   [touches=0, support=323]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- size=large(n≤20) | target=approx_ratio | n=323 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 7, 'sophie': 0}, 'mixed': {'conjectures': 10, 'sophie': 0}}}
+Total conjectures: 17
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((23/14) · (mis)²) + ((-24/17) · mis)) + 1) ≤ approx_ratio   [touches=0, support=323]
+
+Conjecture 2. ((((1/3) · (assortativity)²) + ((3/17) · assortativity)) + (13/18)) ≤ approx_ratio   [touches=0, support=323]
+
+Conjecture 3. ((((2/5) · (clust_mean)²) + ((-5/19) · clust_mean)) + (14/19)) ≤ approx_ratio   [touches=0, support=323]
+
+Conjecture 4. approx_ratio ≤ ((((-7/17) · (mis)²) + ((1/5) · mis)) + (19/20))   [touches=0, support=323]
+
+Conjecture 5. approx_ratio ≤ (((-1/8) · (assortativity)²) + 1)   [touches=0, support=323]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- size=large(n≤20) | target=mean_n_obj_calls | n=323 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 3
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (clust_mean)²) + (4 · clust_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=323]
+
+Conjecture 2. ((((30/17) · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=323]
+
+Conjecture 3. ((4 · m) + 4) ≤ mean_n_obj_calls   [touches=0, support=323]
+
+
+=== Sophie-style conditions ===
+
+(none)
+  Skipping size=xl(n>20) — only 0 rows
+
+============================================================
+LEVEL 3: MODEL x SIZE
+============================================================
+
+--- model=barabasi_size=small(n≤10) | target=optimal_gamma | n=100 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 8, 'sophie': 0}}}
+Total conjectures: 10
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((34/19) · (mis)²) + ((-57/16) · mis)) + (59/20)) ≤ optimal_gamma   [touches=0, support=100]
+
+Conjecture 2. optimal_gamma ≤ ((((15/11) · (mis)²) + ((-5/4) · mis)) + (42/13))   [touches=0, support=100]
+
+Conjecture 3. (((7/19) · deg_mean) + ((1/2) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=100]
+
+Conjecture 4. (((7/19) · deg_mean) + ((4/19) · (deg_mean)²)) ≤ optimal_gamma   [touches=0, support=100]
+
+Conjecture 5. (((7/19) · deg_mean) + ((3/13) · √(n))) ≤ optimal_gamma   [touches=0, support=100]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi_size=small(n≤10) | target=approx_ratio | n=100 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 15, 'sophie': 0}}}
+Total conjectures: 19
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((4/7) · (deg_mean)²) + ((-17/6) · deg_mean)) + 4) ≤ approx_ratio   [touches=0, support=100]
+
+Conjecture 2. ((((29/13) · (mis)²) + ((-23/9) · mis)) + (29/19)) ≤ approx_ratio   [touches=0, support=100]
+
+Conjecture 3. approx_ratio ≤ ((((-20/17) · (deg_mean)²) + (4 · deg_mean)) + (-12/5))   [touches=0, support=100]
+
+Conjecture 4. approx_ratio ≤ ((((2/5) · (mis)²) + ((-8/17) · mis)) + (21/19))   [touches=0, support=100]
+
+Conjecture 5. (((3/13) · deg_mean) + ((3/10) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=100]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi_size=small(n≤10) | target=mean_n_obj_calls | n=100 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 0, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 0
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi_size=medium(n≤15) | target=optimal_gamma | n=96 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 5, 'sophie': 0}, 'mixed': {'conjectures': 11, 'sophie': 0}}}
+Total conjectures: 16
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((7/10) · (deg_mean)²) + ((-18/5) · deg_mean)) + 4) ≤ optimal_gamma   [touches=0, support=96]
+
+Conjecture 2. ((((56/15) · (mis)²) + (-4 · mis)) + (11/14)) ≤ optimal_gamma   [touches=0, support=96]
+
+Conjecture 3. (((-4 · (clust_mean)²) + ((25/9) · clust_mean)) + (-5/19)) ≤ optimal_gamma   [touches=0, support=96]
+
+Conjecture 4. optimal_gamma ≤ ((((2/15) · (deg_mean)²) + ((-13/18) · deg_mean)) + 4)   [touches=0, support=96]
+
+Conjecture 5. optimal_gamma ≤ ((((5/2) · (mis)²) + (-3 · mis)) + 4)   [touches=0, support=96]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi_size=medium(n≤15) | target=approx_ratio | n=96 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 15, 'sophie': 0}}}
+Total conjectures: 17
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4/13) · n) + (-24/19)) ≤ approx_ratio   [touches=0, support=96]
+
+Conjecture 2. approx_ratio ≤ (((-1/8) · n) + (29/17))   [touches=0, support=96]
+
+Conjecture 3. (((1/9) · deg_mean) + ((3/14) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=96]
+
+Conjecture 4. (((1/9) · deg_mean) + ((1/20) · (deg_mean)²)) ≤ approx_ratio   [touches=0, support=96]
+
+Conjecture 5. (((1/9) · deg_mean) + ((1/2) · √(mis))) ≤ approx_ratio   [touches=0, support=96]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi_size=medium(n≤15) | target=mean_n_obj_calls | n=96 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 1, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 1
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((11/4) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=96]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi_size=large(n≤20) | target=optimal_gamma | n=83 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 5, 'sophie': 0}, 'mixed': {'conjectures': 11, 'sophie': 0}}}
+Total conjectures: 16
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (clust_mean)²) + (-4 · clust_mean)) + (4/7)) ≤ optimal_gamma   [touches=0, support=83]
+
+Conjecture 2. ((((1/3) · (deg_mean)²) + ((-26/11) · deg_mean)) + 4) ≤ optimal_gamma   [touches=0, support=83]
+
+Conjecture 3. (((4 · (mis)²) + ((-1/14) · mis)) + (-11/12)) ≤ optimal_gamma   [touches=0, support=83]
+
+Conjecture 4. optimal_gamma ≤ ((((1/5) · (clust_mean)²) + ((-1/13) · clust_mean)) + (22/7))   [touches=0, support=83]
+
+Conjecture 5. optimal_gamma ≤ ((((-1/2) · (mis)²) + ((11/18) · mis)) + (59/20))   [touches=0, support=83]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi_size=large(n≤20) | target=approx_ratio | n=83 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 1, 'sophie': 0}, 'mixed': {'conjectures': 13, 'sophie': 0}}}
+Total conjectures: 14
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((-7/18) · n) + 4) ≤ approx_ratio   [touches=0, support=83]
+
+Conjecture 2. (((1/15) · deg_mean) + ((3/19) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=83]
+
+Conjecture 3. (((1/15) · deg_mean) + ((1/2) · √(mis))) ≤ approx_ratio   [touches=0, support=83]
+
+Conjecture 4. (((1/15) · deg_mean) + ((1/12) · √(n))) ≤ approx_ratio   [touches=0, support=83]
+
+Conjecture 5. (((4/7) · mis) + ((3/19) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=83]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=barabasi_size=large(n≤20) | target=mean_n_obj_calls | n=83 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 2
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=83]
+
+Conjecture 2. ((((2/17) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls   [touches=0, support=83]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=small(n≤10) | target=optimal_gamma | n=91 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 8, 'sophie': 0}}}
+Total conjectures: 10
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((1/14) · (n)²) + -n) + 4) ≤ optimal_gamma   [touches=0, support=91]
+
+Conjecture 2. optimal_gamma ≤ (((3/17) · n) + (47/20))   [touches=0, support=91]
+
+Conjecture 3. (((1/20) · deg_mean) + ((1/13) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=91]
+
+Conjecture 4. (((1/20) · deg_mean) + ((1/20) · √(n))) ≤ optimal_gamma   [touches=0, support=91]
+
+Conjecture 5. optimal_gamma ≤ (((9/10) · deg_mean) + ((7/6) · √(deg_mean)))   [touches=0, support=91]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=small(n≤10) | target=approx_ratio | n=91 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 12, 'sophie': 0}}}
+Total conjectures: 16
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((-2/15) · n) + (11/8)) ≤ approx_ratio   [touches=0, support=91]
+
+Conjecture 2. ((((8/17) · (assortativity)²) + ((1/15) · assortativity)) + (8/11)) ≤ approx_ratio   [touches=0, support=91]
+
+Conjecture 3. approx_ratio ≤ (((2/19) · n) + (11/18))   [touches=0, support=91]
+
+Conjecture 4. approx_ratio ≤ ((((-1/7) · (assortativity)²) + ((-2/17) · assortativity)) + 1)   [touches=0, support=91]
+
+Conjecture 5. (((1/19) · deg_mean) + ((3/20) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=91]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=small(n≤10) | target=mean_n_obj_calls | n=91 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 3
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=91]
+
+Conjecture 2. ((((6/19) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls   [touches=0, support=91]
+
+Conjecture 3. (((4 · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=91]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=medium(n≤15) | target=optimal_gamma | n=93 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 10, 'sophie': 0}}}
+Total conjectures: 14
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((-30/17) · (clust_mean)²) + (4 · clust_mean)) + (-11/20)) ≤ optimal_gamma   [touches=0, support=93]
+
+Conjecture 2. (((-4 · (mis)²) + (-4 · mis)) + (13/6)) ≤ optimal_gamma   [touches=0, support=93]
+
+Conjecture 3. optimal_gamma ≤ ((((-1/10) · (clust_mean)²) + ((6/19) · clust_mean)) + (47/16))   [touches=0, support=93]
+
+Conjecture 4. optimal_gamma ≤ ((((25/9) · (mis)²) + ((-35/16) · mis)) + (45/13))   [touches=0, support=93]
+
+Conjecture 5. (((-1/20) · deg_mean) + ((-1/12) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=93]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=medium(n≤15) | target=approx_ratio | n=93 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 15, 'sophie': 0}}}
+Total conjectures: 19
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((2/19) · (clust_mean)²) + ((-2/17) · clust_mean)) + (7/9)) ≤ approx_ratio   [touches=0, support=93]
+
+Conjecture 2. ((((10/19) · (mis)²) + ((-5/17) · mis)) + (11/14)) ≤ approx_ratio   [touches=0, support=93]
+
+Conjecture 3. approx_ratio ≤ ((((-2/19) · (clust_mean)²) + ((4/19) · clust_mean)) + (13/15))   [touches=0, support=93]
+
+Conjecture 4. approx_ratio ≤ ((((-3/19) · (mis)²) + ((-1/14) · mis)) + 1)   [touches=0, support=93]
+
+Conjecture 5. (((1/20) · deg_mean) + ((2/17) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=93]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=medium(n≤15) | target=mean_n_obj_calls | n=93 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 1, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 1
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((55/14) · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=93]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=large(n≤20) | target=optimal_gamma | n=95 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 11, 'sophie': 0}}}
+Total conjectures: 15
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. optimal_gamma ≤ ((((-2/15) · (mis)²) + ((-3/17) · mis)) + (31/10))   [touches=0, support=95]
+
+Conjecture 2. optimal_gamma ≤ (56/19)   [touches=0, support=95]
+
+Conjecture 3. (4/3) ≤ optimal_gamma   [touches=0, support=95]
+
+Conjecture 4. ((((51/16) · (clust_mean)²) + ((-52/19) · clust_mean)) + (32/15)) ≤ optimal_gamma   [touches=0, support=95]
+
+Conjecture 5. (((1/15) · deg_mean) + ((3/11) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=95]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=large(n≤20) | target=approx_ratio | n=95 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 5, 'sophie': 0}, 'mixed': {'conjectures': 14, 'sophie': 0}}}
+Total conjectures: 19
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((19/8) · (mis)²) + ((-23/16) · mis)) + 1) ≤ approx_ratio   [touches=0, support=95]
+
+Conjecture 2. (5/6) ≤ approx_ratio   [touches=0, support=95]
+
+Conjecture 3. ((((4/13) · (clust_mean)²) + ((-1/4) · clust_mean)) + (5/6)) ≤ approx_ratio   [touches=0, support=95]
+
+Conjecture 4. approx_ratio ≤ ((((13/17) · (mis)²) + ((-2/3) · mis)) + (21/20))   [touches=0, support=95]
+
+Conjecture 5. approx_ratio ≤ (16/17)   [touches=0, support=95]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=gnm_size=large(n≤20) | target=mean_n_obj_calls | n=95 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 4
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (clust_mean)²) + (4 · clust_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=95]
+
+Conjecture 2. ((((30/17) · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=95]
+
+Conjecture 3. ((4 · m) + 4) ≤ mean_n_obj_calls   [touches=0, support=95]
+
+Conjecture 4. mean_n_obj_calls ≤ ((((11/5) · (m)²) + (4 · m)) + 4)   [touches=0, support=95]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=small(n≤10) | target=optimal_gamma | n=58 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 9, 'sophie': 0}}}
+Total conjectures: 13
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((-1/11) · (n)²) + ((21/19) · n)) + (-11/4)) ≤ optimal_gamma   [touches=0, support=58]
+
+Conjecture 2. ((((-12/19) · (deg_mean)²) + ((45/13) · deg_mean)) + -4) ≤ optimal_gamma   [touches=0, support=58]
+
+Conjecture 3. ((((14/19) · (mis)²) + (4 · mis)) + (-17/10)) ≤ optimal_gamma   [touches=0, support=58]
+
+Conjecture 4. optimal_gamma ≤ (((-1/5) · n) + 4)   [touches=0, support=58]
+
+Conjecture 5. (((-1/20) · deg_mean) + ((-1/14) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=58]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=small(n≤10) | target=approx_ratio | n=58 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 2, 'sophie': 0}, 'lp1': {'conjectures': 1, 'sophie': 0}, 'sqrt': {'conjectures': 3, 'sophie': 0}, 'lp2': {'conjectures': 1, 'sophie': 0}, 'lp3': {'conjectures': 1, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 13, 'sophie': 0}}}
+Total conjectures: 21
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. approx_ratio ≤ ((1/2) · deg_mean)   [touches=9, support=58]
+
+Conjecture 2. approx_ratio ≤ 1   [touches=9, support=58]
+
+Conjecture 3. approx_ratio ≤ ((((1/20) · clust_mean) + ((-1/24) · √(clust_mean))) + 1)   [touches=9, support=58]
+
+Conjecture 4. (((-1/8) · √(clust_mean)) + 1) ≤ approx_ratio   [touches=9, support=58]
+
+Conjecture 5. approx_ratio ≤ ((1/6) · n)   [touches=3, support=58]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=small(n≤10) | target=mean_n_obj_calls | n=58 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 2
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((19/11) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls   [touches=0, support=58]
+
+Conjecture 2. (((4 · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=58]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=medium(n≤15) | target=optimal_gamma | n=59 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 4, 'sophie': 0}, 'mixed': {'conjectures': 8, 'sophie': 0}}}
+Total conjectures: 12
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((-4 · (mis)²) + (-4 · mis)) + (25/9)) ≤ optimal_gamma   [touches=0, support=59]
+
+Conjecture 2. ((((-3/14) · (deg_mean)²) + ((31/16) · deg_mean)) + (-13/5)) ≤ optimal_gamma   [touches=0, support=59]
+
+Conjecture 3. optimal_gamma ≤ ((((-10/3) · (mis)²) + ((19/7) · mis)) + (29/12))   [touches=0, support=59]
+
+Conjecture 4. optimal_gamma ≤ ((((-3/4) · (deg_mean)²) + (4 · deg_mean)) + (-47/20))   [touches=0, support=59]
+
+Conjecture 5. (((2/19) · deg_mean) + ((3/20) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=59]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=medium(n≤15) | target=approx_ratio | n=59 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 1, 'sophie': 0}, 'mixed': {'conjectures': 18, 'sophie': 0}}}
+Total conjectures: 19
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. approx_ratio ≤ (((-1/10) · n) + (8/5))   [touches=0, support=59]
+
+Conjecture 2. (((1/9) · deg_mean) + ((2/9) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=59]
+
+Conjecture 3. (((1/9) · deg_mean) + ((1/20) · (deg_mean)²)) ≤ approx_ratio   [touches=0, support=59]
+
+Conjecture 4. (((1/9) · deg_mean) + ((5/8) · √(mis))) ≤ approx_ratio   [touches=0, support=59]
+
+Conjecture 5. (((1/9) · deg_mean) + ((2/17) · √(n))) ≤ approx_ratio   [touches=0, support=59]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=medium(n≤15) | target=mean_n_obj_calls | n=59 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 2
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((17/18) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls   [touches=0, support=59]
+
+Conjecture 2. (((4 · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=59]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=large(n≤20) | target=optimal_gamma | n=56 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 8, 'sophie': 0}}}
+Total conjectures: 10
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((1/2) · n) + -4) ≤ optimal_gamma   [touches=0, support=56]
+
+Conjecture 2. optimal_gamma ≤ (((-1/19) · n) + (45/13))   [touches=0, support=56]
+
+Conjecture 3. (((2/19) · deg_mean) + ((3/20) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=56]
+
+Conjecture 4. (((2/19) · deg_mean) + ((1/19) · (deg_mean)²)) ≤ optimal_gamma   [touches=0, support=56]
+
+Conjecture 5. (((2/19) · deg_mean) + ((1/20) · √(n))) ≤ optimal_gamma   [touches=0, support=56]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=large(n≤20) | target=approx_ratio | n=56 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 14, 'sophie': 0}}}
+Total conjectures: 17
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (mis)²) + ((-13/4) · mis)) + (29/19)) ≤ approx_ratio   [touches=0, support=56]
+
+Conjecture 2. approx_ratio ≤ (((-4 · (mis)²) + (3 · mis)) + (7/17))   [touches=0, support=56]
+
+Conjecture 3. approx_ratio ≤ ((((-52/19) · (clust_mean)²) + ((11/18) · clust_mean)) + (16/17))   [touches=0, support=56]
+
+Conjecture 4. (((1/9) · deg_mean) + ((2/9) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=56]
+
+Conjecture 5. (((1/9) · deg_mean) + ((1/20) · (deg_mean)²)) ≤ approx_ratio   [touches=0, support=56]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=regular_size=large(n≤20) | target=mean_n_obj_calls | n=56 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 1, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 1
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=56]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=small(n≤10) | target=optimal_gamma | n=100 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 11, 'sophie': 0}}}
+Total conjectures: 13
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((-1/2) · (mis)²) + (-4 · mis)) + (31/19)) ≤ optimal_gamma   [touches=0, support=100]
+
+Conjecture 2. optimal_gamma ≤ ((((31/13) · (mis)²) + ((-41/16) · mis)) + (29/8))   [touches=0, support=100]
+
+Conjecture 3. (((-1/8) · deg_mean) + ((-3/17) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=100]
+
+Conjecture 4. (((-1/8) · deg_mean) + ((-1/13) · √(n))) ≤ optimal_gamma   [touches=0, support=100]
+
+Conjecture 5. ((-1/8) · deg_mean) ≤ optimal_gamma   [touches=0, support=100]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=small(n≤10) | target=approx_ratio | n=100 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 1, 'sophie': 0}, 'lp1': {'conjectures': 1, 'sophie': 0}, 'sqrt': {'conjectures': 7, 'sophie': 0}, 'lp2': {'conjectures': 1, 'sophie': 0}, 'lp3': {'conjectures': 1, 'sophie': 0}, 'poly_single': {'conjectures': 6, 'sophie': 0}, 'mixed': {'conjectures': 12, 'sophie': 0}}}
+Total conjectures: 27
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. approx_ratio ≤ ((1/2) · deg_mean)   [touches=3, support=100]
+
+Conjecture 2. approx_ratio ≤ 1   [touches=3, support=100]
+
+Conjecture 3. approx_ratio ≤ (((-3/14) · √(assortativity)) + 1)   [touches=3, support=100]
+
+Conjecture 4. approx_ratio ≤ ((((-3/23) · clust_mean) + ((2/25) · √(clust_mean))) + 1)   [touches=3, support=100]
+
+Conjecture 5. approx_ratio ≤ (((-1/19) · √(clust_mean)) + 1)   [touches=3, support=100]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=small(n≤10) | target=mean_n_obj_calls | n=100 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 0, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 0
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=medium(n≤15) | target=optimal_gamma | n=80 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 1, 'sophie': 0}, 'mixed': {'conjectures': 12, 'sophie': 0}}}
+Total conjectures: 13
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. optimal_gamma ≤ ((((-2/3) · (deg_mean)²) + (4 · deg_mean)) + (-9/4))   [touches=0, support=80]
+
+Conjecture 2. (((-1/8) · deg_mean) + ((-2/11) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=80]
+
+Conjecture 3. (((-1/8) · deg_mean) + ((-1/16) · (deg_mean)²)) ≤ optimal_gamma   [touches=0, support=80]
+
+Conjecture 4. (((-1/8) · deg_mean) + ((-1/13) · √(n))) ≤ optimal_gamma   [touches=0, support=80]
+
+Conjecture 5. ((-1/8) · deg_mean) ≤ optimal_gamma   [touches=0, support=80]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=medium(n≤15) | target=approx_ratio | n=80 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 15, 'sophie': 0}}}
+Total conjectures: 18
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. approx_ratio ≤ (((1/10) · assortativity) + (19/20))   [touches=0, support=80]
+
+Conjecture 2. approx_ratio ≤ ((((-5/8) · (deg_mean)²) + ((71/19) · deg_mean)) + -4)   [touches=0, support=80]
+
+Conjecture 3. ((((5/13) · (deg_mean)²) + ((-26/11) · deg_mean)) + 4) ≤ approx_ratio   [touches=0, support=80]
+
+Conjecture 4. (((1/13) · deg_mean) + ((3/19) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=80]
+
+Conjecture 5. (((1/13) · deg_mean) + ((8/17) · √(mis))) ≤ approx_ratio   [touches=0, support=80]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=medium(n≤15) | target=mean_n_obj_calls | n=80 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 3
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls   [touches=0, support=80]
+
+Conjecture 2. ((((12/19) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls   [touches=0, support=80]
+
+Conjecture 3. ((((39/14) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=80]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=large(n≤20) | target=optimal_gamma | n=89 ---
+Stage breakdown: {'optimal_gamma': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 11, 'sophie': 0}}}
+Total conjectures: 14
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. (((-9/19) · n) + 4) ≤ optimal_gamma   [touches=0, support=89]
+
+Conjecture 2. (((-4 · (mis)²) + (-4 · mis)) + (23/11)) ≤ optimal_gamma   [touches=0, support=89]
+
+Conjecture 3. optimal_gamma ≤ (((9/19) · n) + (-4/5))   [touches=0, support=89]
+
+Conjecture 4. (((-2/15) · deg_mean) + ((-2/11) · √(deg_mean))) ≤ optimal_gamma   [touches=0, support=89]
+
+Conjecture 5. (((-2/15) · deg_mean) + ((-1/17) · √(n))) ≤ optimal_gamma   [touches=0, support=89]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=large(n≤20) | target=approx_ratio | n=89 ---
+Stage breakdown: {'approx_ratio': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 3, 'sophie': 0}, 'mixed': {'conjectures': 12, 'sophie': 0}}}
+Total conjectures: 15
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((1/8) · (clust_mean)²) + ((1/6) · clust_mean)) + (14/19)) ≤ approx_ratio   [touches=0, support=89]
+
+Conjecture 2. ((((7/17) · (deg_mean)²) + ((-27/11) · deg_mean)) + 4) ≤ approx_ratio   [touches=0, support=89]
+
+Conjecture 3. approx_ratio ≤ ((((-8/13) · (deg_mean)²) + ((59/16) · deg_mean)) + -4)   [touches=0, support=89]
+
+Conjecture 4. (((1/10) · deg_mean) + ((1/5) · √(deg_mean))) ≤ approx_ratio   [touches=0, support=89]
+
+Conjecture 5. (((1/10) · deg_mean) + ((1/2) · √(mis))) ≤ approx_ratio   [touches=0, support=89]
+
+
+=== Sophie-style conditions ===
+
+(none)
+
+--- model=watts_size=large(n≤20) | target=mean_n_obj_calls | n=89 ---
+Stage breakdown: {'mean_n_obj_calls': {'ratio': {'conjectures': 0, 'sophie': 0}, 'lp1': {'conjectures': 0, 'sophie': 0}, 'sqrt': {'conjectures': 0, 'sophie': 0}, 'lp2': {'conjectures': 0, 'sophie': 0}, 'lp3': {'conjectures': 0, 'sophie': 0}, 'poly_single': {'conjectures': 2, 'sophie': 0}, 'mixed': {'conjectures': 0, 'sophie': 0}}}
+Total conjectures: 2
+Total Sophie conditions: 0
+
+=== Top conjectures (by touch_count, then support) ===
+
+Conjecture 1. ((((4/11) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls   [touches=0, support=89]
+
+Conjecture 2. ((((5/3) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls   [touches=0, support=89]
+
+
+=== Sophie-style conditions ===
+
+(none)

@@ -1,17 +1,19 @@
-# class object that initilaizes the symbolic conjecture
-#input: KNowledge table with properties or invariants
-# Output COnjectures in Symbolic form
+# Generates candidate conjectures for optimal_gamma via txGraffiti's Graffiti3
+# engine (polynomial/composite functional forms) over the 82-instance
+# Phase 1 knowledge table, using features {optimal_beta_abs, chromatic}.
+# This feeds Table I's C1 (quadratic beta bound), C2 (chromatic-number
+# bound), and C3 (quadratic upper bound).
 from __future__ import annotations
 
 import pandas as pd
 
-from txgraffiti.graffiti3.heuristics.morgan import morgan_filter#, dalmatian_filter
+from txgraffiti.graffiti3.heuristics.morgan import morgan_filter
 from txgraffiti.graffiti3.heuristics.dalmatian import dalmatian_filter
 from txgraffiti.graffiti3.graffiti3 import Graffiti3, print_g3_result, Stage
 
 if __name__ == '__main__':
 
-    df = pd.read_csv("/home/sfeen/projects/symbolic_ai/test2/knowledge_table_small.csv")
+    df = pd.read_csv("../../results/mqlib/knowledge_table_small.csv")
     df2 = df[['optimal_beta_abs','optimal_gamma','chromatic']]
     
 

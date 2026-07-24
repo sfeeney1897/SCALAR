@@ -1,0 +1,227 @@
+stratum,target,rank,formula,touches,support
+model=regular,optimal_gamma,1,(3/7) ≤ optimal_gamma,0,189
+model=regular,optimal_gamma,2,(((-4 · (mis)²) + (-4 · mis)) + (28/11)) ≤ optimal_gamma,0,189
+model=regular,optimal_gamma,3,optimal_gamma ≤ (((-4 · (mis)²) + ((46/19) · mis)) + (35/13)),0,189
+model=regular,optimal_gamma,4,(((1/10) · deg_mean) + ((2/15) · √(deg_mean))) ≤ optimal_gamma,0,189
+model=regular,optimal_gamma,5,(((1/10) · deg_mean) + ((1/20) · (deg_mean)²)) ≤ optimal_gamma,0,189
+model=regular,approx_ratio,1,approx_ratio ≤ 1,9,189
+model=regular,approx_ratio,2,approx_ratio ≤ ((((7/27) · clust_mean) + ((-2/13) · √(clust_mean))) + 1),9,189
+model=regular,approx_ratio,3,approx_ratio ≤ ((((7/18) · (clust_mean)²) + ((-1/12) · √(clust_mean))) + 1),9,189
+model=regular,approx_ratio,4,approx_ratio ≤ ((((9/11) · (clust_mean)²) + ((-2/7) · clust_mean)) + 1),9,189
+model=regular,approx_ratio,5,approx_ratio ≤ ((1/6) · n),4,189
+model=regular,mean_n_obj_calls,1,((((5/14) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,189
+model=watts,optimal_gamma,1,((((66/19) · (clust_mean)²) + ((15/17) · clust_mean)) + (-1/2)) ≤ optimal_gamma,0,277
+model=watts,optimal_gamma,2,optimal_gamma ≤ ((((-2/3) · (deg_mean)²) + (4 · deg_mean)) + (-35/16)),0,277
+model=watts,optimal_gamma,3,(((-1/8) · deg_mean) + ((-2/11) · √(deg_mean))) ≤ optimal_gamma,0,277
+model=watts,optimal_gamma,4,(((-1/8) · deg_mean) + ((-1/16) · (deg_mean)²)) ≤ optimal_gamma,0,277
+model=watts,optimal_gamma,5,(((-1/8) · deg_mean) + ((-1/13) · √(n))) ≤ optimal_gamma,0,277
+model=watts,approx_ratio,1,approx_ratio ≤ ((1/2) · deg_mean),4,277
+model=watts,approx_ratio,2,approx_ratio ≤ 1,4,277
+model=watts,approx_ratio,3,approx_ratio ≤ (((-2/9) · √(assortativity)) + 1),4,277
+model=watts,approx_ratio,4,approx_ratio ≤ ((((17/16) · assortativity) + ((-21/29) · √(assortativity))) + 1),4,277
+model=watts,approx_ratio,5,approx_ratio ≤ ((((59/26) · (assortativity)²) + ((-11/24) · √(assortativity))) + 1),4,277
+model=watts,mean_n_obj_calls,1,((((5/16) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,277
+model=watts,mean_n_obj_calls,2,((((28/19) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,277
+model=barabasi,optimal_gamma,1,((((19/17) · (clust_mean)²) + ((-9/13) · clust_mean)) + (5/18)) ≤ optimal_gamma,0,257
+model=barabasi,optimal_gamma,2,(((4 · (mis)²) + ((-61/18) · mis)) + (9/10)) ≤ optimal_gamma,0,257
+model=barabasi,optimal_gamma,3,optimal_gamma ≤ (22/7),0,257
+model=barabasi,optimal_gamma,4,((1/20) · √(deg_mean)) ≤ optimal_gamma,0,257
+model=barabasi,optimal_gamma,5,optimal_gamma ≤ (((11/12) · deg_mean) + ((6/5) · √(deg_mean))),0,257
+model=barabasi,approx_ratio,1,(16/19) ≤ approx_ratio,0,257
+model=barabasi,approx_ratio,2,((((11/18) · (assortativity)²) + ((10/19) · assortativity)) + (13/15)) ≤ approx_ratio,0,257
+model=barabasi,approx_ratio,3,((((7/5) · (mis)²) + ((-22/15) · mis)) + (8/7)) ≤ approx_ratio,0,257
+model=barabasi,approx_ratio,4,approx_ratio ≤ ((((13/19) · (assortativity)²) + ((11/19) · assortativity)) + (19/18)),0,257
+model=barabasi,approx_ratio,5,approx_ratio ≤ (((-1/14) · deg_mean) + (21/19)),0,257
+model=barabasi,mean_n_obj_calls,1,((((2/15) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,257
+model=barabasi,mean_n_obj_calls,2,((((4/3) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,257
+model=gnm,optimal_gamma,1,(((2/5) · deg_mean) + (-25/18)) ≤ optimal_gamma,0,277
+model=gnm,optimal_gamma,2,(((-4 · (mis)²) + ((-38/11) · mis)) + (41/17)) ≤ optimal_gamma,0,277
+model=gnm,optimal_gamma,3,(((-3/7) · n) + (62/19)) ≤ optimal_gamma,0,277
+model=gnm,optimal_gamma,4,((((-25/16) · (clust_mean)²) + (4 · clust_mean)) + (-10/13)) ≤ optimal_gamma,0,277
+model=gnm,optimal_gamma,5,optimal_gamma ≤ (47/15),0,277
+model=gnm,approx_ratio,1,((((-1/5) · (assortativity)²) + ((-3/7) · assortativity)) + (11/17)) ≤ approx_ratio,0,277
+model=gnm,approx_ratio,2,approx_ratio ≤ ((((-5/18) · (assortativity)²) + ((-4/17) · assortativity)) + (16/17)),0,277
+model=gnm,approx_ratio,3,(((1/20) · deg_mean) + ((2/19) · √(deg_mean))) ≤ approx_ratio,0,277
+model=gnm,approx_ratio,4,(((1/20) · deg_mean) + ((10/19) · √(mis))) ≤ approx_ratio,0,277
+model=gnm,approx_ratio,5,(((1/20) · deg_mean) + ((1/12) · √(n))) ≤ approx_ratio,0,277
+model=gnm,mean_n_obj_calls,1,((((32/19) · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls,0,277
+model=gnm,mean_n_obj_calls,2,((4 · m) + 4) ≤ mean_n_obj_calls,0,277
+model=gnm,mean_n_obj_calls,3,((((7/6) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,277
+size=small(n≤10),optimal_gamma,1,((((5/16) · (clust_mean)²) + ((29/14) · clust_mean)) + (-1/2)) ≤ optimal_gamma,0,331
+size=small(n≤10),optimal_gamma,2,(((-1/8) · deg_mean) + ((-3/17) · √(deg_mean))) ≤ optimal_gamma,0,331
+size=small(n≤10),optimal_gamma,3,(((-1/8) · deg_mean) + ((-1/16) · (deg_mean)²)) ≤ optimal_gamma,0,331
+size=small(n≤10),optimal_gamma,4,(((-1/8) · deg_mean) + ((-1/13) · √(n))) ≤ optimal_gamma,0,331
+size=small(n≤10),optimal_gamma,5,((-1/8) · deg_mean) ≤ optimal_gamma,0,331
+size=small(n≤10),approx_ratio,1,approx_ratio ≤ 1,13,331
+size=small(n≤10),approx_ratio,2,approx_ratio ≤ (((-7/27) · √(assortativity)) + 1),13,331
+size=small(n≤10),approx_ratio,3,approx_ratio ≤ ((((49/27) · assortativity) + -√(assortativity)) + 1),13,331
+size=small(n≤10),approx_ratio,4,approx_ratio ≤ ⌊(((3/10) · deg_mean) + ((12/11) · √(mis)))⌋,13,331
+size=small(n≤10),approx_ratio,5,approx_ratio ≤ ⌊(((1/12) · n) + ((12/11) · √(mis)))⌋,13,331
+size=small(n≤10),mean_n_obj_calls,1,(((4 · (clust_mean)²) + (4 · clust_mean)) + 4) ≤ mean_n_obj_calls,0,331
+size=small(n≤10),mean_n_obj_calls,2,(((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls,0,331
+size=small(n≤10),mean_n_obj_calls,3,((((5/14) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,331
+size=medium(n≤15),optimal_gamma,1,((((3/16) · (clust_mean)²) + (2 · clust_mean)) + (-1/2)) ≤ optimal_gamma,0,331
+size=medium(n≤15),optimal_gamma,2,(((4/13) · deg_mean) + (-11/10)) ≤ optimal_gamma,0,331
+size=medium(n≤15),optimal_gamma,3,((-4 · mis) + (25/19)) ≤ optimal_gamma,0,331
+size=medium(n≤15),optimal_gamma,4,optimal_gamma ≤ ((((-3/10) · (clust_mean)²) + ((7/19) · clust_mean)) + (61/20)),0,331
+size=medium(n≤15),optimal_gamma,5,optimal_gamma ≤ (((1/15) · deg_mean) + (38/13)),0,331
+size=medium(n≤15),approx_ratio,1,((((-1/8) · (assortativity)²) + ((-1/15) · assortativity)) + (13/17)) ≤ approx_ratio,0,331
+size=medium(n≤15),approx_ratio,2,((((2/3) · (mis)²) + ((-4/9) · mis)) + (15/19)) ≤ approx_ratio,0,331
+size=medium(n≤15),approx_ratio,3,approx_ratio ≤ ((((1/14) · (assortativity)²) + ((2/19) · assortativity)) + (19/20)),0,331
+size=medium(n≤15),approx_ratio,4,approx_ratio ≤ ((((-3/13) · (mis)²) + ((3/16) · mis)) + (15/16)),0,331
+size=medium(n≤15),approx_ratio,5,(((1/20) · deg_mean) + ((1/8) · √(deg_mean))) ≤ approx_ratio,0,331
+size=medium(n≤15),mean_n_obj_calls,1,(((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls,0,331
+size=medium(n≤15),mean_n_obj_calls,2,((((27/11) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,331
+size=large(n≤20),optimal_gamma,1,((((63/19) · (clust_mean)²) + ((-2/19) · clust_mean)) + (-1/2)) ≤ optimal_gamma,0,338
+size=large(n≤20),optimal_gamma,2,(((1/4) · deg_mean) + -1) ≤ optimal_gamma,0,338
+size=large(n≤20),optimal_gamma,3,(((-3 · (mis)²) + (-4 · mis)) + (39/19)) ≤ optimal_gamma,0,338
+size=large(n≤20),optimal_gamma,4,optimal_gamma ≤ (47/15),0,338
+size=large(n≤20),optimal_gamma,5,optimal_gamma ≤ ((-(mis)² + ((7/8) · mis)) + (59/20)),0,338
+size=large(n≤20),approx_ratio,1,((((6/17) · (assortativity)²) + ((1/11) · assortativity)) + (8/11)) ≤ approx_ratio,0,338
+size=large(n≤20),approx_ratio,2,((((3/5) · (mis)²) + ((-5/13) · mis)) + (7/9)) ≤ approx_ratio,0,338
+size=large(n≤20),approx_ratio,3,(3/4) ≤ approx_ratio,0,338
+size=large(n≤20),approx_ratio,4,approx_ratio ≤ ((((1/17) · (assortativity)²) + ((3/17) · assortativity)) + 1),0,338
+size=large(n≤20),approx_ratio,5,approx_ratio ≤ ((((-10/19) · (mis)²) + ((5/16) · mis)) + (14/15)),0,338
+size=large(n≤20),mean_n_obj_calls,1,((4 · m) + 4) ≤ mean_n_obj_calls,0,338
+model=barabasi_size=small(n≤10),optimal_gamma,1,((((25/19) · (mis)²) + (-4 · mis)) + (58/17)) ≤ optimal_gamma,0,79
+model=barabasi_size=small(n≤10),optimal_gamma,2,((((-11/5) · (deg_mean)²) + (4 · deg_mean)) + (20/17)) ≤ optimal_gamma,0,79
+model=barabasi_size=small(n≤10),optimal_gamma,3,optimal_gamma ≤ ((((1/4) · (mis)²) + ((3/10) · mis)) + (35/13)),0,79
+model=barabasi_size=small(n≤10),optimal_gamma,4,optimal_gamma ≤ (((-3/19) · n) + 4),0,79
+model=barabasi_size=small(n≤10),optimal_gamma,5,(((3/8) · deg_mean) + ((1/2) · √(deg_mean))) ≤ optimal_gamma,0,79
+model=barabasi_size=small(n≤10),approx_ratio,1,approx_ratio ≤ (((mis)² + ((-5/4) · mis)) + (27/20)),0,79
+model=barabasi_size=small(n≤10),approx_ratio,2,approx_ratio ≤ ((((-6/5) · (deg_mean)²) + (4 · deg_mean)) + (-44/19)),0,79
+model=barabasi_size=small(n≤10),approx_ratio,3,((((10/17) · (assortativity)²) + ((1/2) · assortativity)) + (8/9)) ≤ approx_ratio,0,79
+model=barabasi_size=small(n≤10),approx_ratio,4,((((7/6) · (deg_mean)²) + ((-58/15) · deg_mean)) + 4) ≤ approx_ratio,0,79
+model=barabasi_size=small(n≤10),approx_ratio,5,(((3/13) · deg_mean) + ((3/10) · √(deg_mean))) ≤ approx_ratio,0,79
+model=barabasi_size=medium(n≤15),optimal_gamma,1,((((5/9) · (deg_mean)²) + ((-51/19) · deg_mean)) + 4) ≤ optimal_gamma,0,88
+model=barabasi_size=medium(n≤15),optimal_gamma,2,(((4 · (clust_mean)²) + ((-3/11) · clust_mean)) + (11/12)) ≤ optimal_gamma,0,88
+model=barabasi_size=medium(n≤15),optimal_gamma,3,optimal_gamma ≤ ((((-1/3) · (deg_mean)²) + ((9/5) · deg_mean)) + (9/11)),0,88
+model=barabasi_size=medium(n≤15),optimal_gamma,4,optimal_gamma ≤ ((((15/13) · (clust_mean)²) + ((-6/19) · clust_mean)) + 3),0,88
+model=barabasi_size=medium(n≤15),optimal_gamma,5,optimal_gamma ≤ (((mis)² + ((-7/5) · mis)) + (52/15)),0,88
+model=barabasi_size=medium(n≤15),approx_ratio,1,(((3/10) · n) + (-9/8)) ≤ approx_ratio,0,88
+model=barabasi_size=medium(n≤15),approx_ratio,2,approx_ratio ≤ 1,0,88
+model=barabasi_size=medium(n≤15),approx_ratio,3,approx_ratio ≤ ((((1/5) · (assortativity)²) + ((3/16) · assortativity)) + (19/20)),0,88
+model=barabasi_size=medium(n≤15),approx_ratio,4,approx_ratio ≤ ((((4/17) · (mis)²) + ((-5/17) · mis)) + 1),0,88
+model=barabasi_size=medium(n≤15),approx_ratio,5,(((2/17) · deg_mean) + ((3/14) · √(deg_mean))) ≤ approx_ratio,0,88
+model=barabasi_size=medium(n≤15),mean_n_obj_calls,1,(((m)² + (4 · m)) + 4) ≤ mean_n_obj_calls,1,88
+model=barabasi_size=medium(n≤15),mean_n_obj_calls,2,((((47/16) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,88
+model=barabasi_size=large(n≤20),optimal_gamma,1,((((19/17) · (clust_mean)²) + ((-9/13) · clust_mean)) + (5/18)) ≤ optimal_gamma,0,90
+model=barabasi_size=large(n≤20),optimal_gamma,2,(((4 · (mis)²) + ((-61/18) · mis)) + (9/10)) ≤ optimal_gamma,0,90
+model=barabasi_size=large(n≤20),optimal_gamma,3,optimal_gamma ≤ (22/7),0,90
+model=barabasi_size=large(n≤20),optimal_gamma,4,((1/20) · √(deg_mean)) ≤ optimal_gamma,0,90
+model=barabasi_size=large(n≤20),optimal_gamma,5,optimal_gamma ≤ (((5/6) · deg_mean) + ((8/7) · √(deg_mean))),0,90
+model=barabasi_size=large(n≤20),approx_ratio,1,(((1/15) · deg_mean) + ((1/6) · √(deg_mean))) ≤ approx_ratio,0,90
+model=barabasi_size=large(n≤20),approx_ratio,2,(((1/15) · deg_mean) + ((9/19) · √(mis))) ≤ approx_ratio,0,90
+model=barabasi_size=large(n≤20),approx_ratio,3,(((1/15) · deg_mean) + ((1/11) · √(n))) ≤ approx_ratio,0,90
+model=barabasi_size=large(n≤20),approx_ratio,4,(((9/16) · mis) + ((1/6) · √(deg_mean))) ≤ approx_ratio,0,90
+model=barabasi_size=large(n≤20),approx_ratio,5,(((9/16) · mis) + ((9/19) · √(mis))) ≤ approx_ratio,0,90
+model=barabasi_size=large(n≤20),mean_n_obj_calls,1,((((2/15) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,90
+model=barabasi_size=large(n≤20),mean_n_obj_calls,2,((((4/3) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,90
+model=gnm_size=small(n≤10),optimal_gamma,1,((6/19) · n) ≤ optimal_gamma,0,92
+model=gnm_size=small(n≤10),optimal_gamma,2,(((2/15) · deg_mean) + ((5/17) · √(deg_mean))) ≤ optimal_gamma,0,92
+model=gnm_size=small(n≤10),optimal_gamma,3,(((2/15) · deg_mean) + ((1/5) · √(n))) ≤ optimal_gamma,0,92
+model=gnm_size=small(n≤10),optimal_gamma,4,(((1/16) · n) + ((5/17) · √(deg_mean))) ≤ optimal_gamma,0,92
+model=gnm_size=small(n≤10),optimal_gamma,5,(((1/16) · n) + ((1/5) · √(n))) ≤ optimal_gamma,0,92
+model=gnm_size=small(n≤10),approx_ratio,1,((((-3/8) · (assortativity)²) + ((-7/13) · assortativity)) + (12/19)) ≤ approx_ratio,0,92
+model=gnm_size=small(n≤10),approx_ratio,2,(7/10) ≤ approx_ratio,0,92
+model=gnm_size=small(n≤10),approx_ratio,3,((((30/11) · (mis)²) + ((-7/3) · mis)) + (6/5)) ≤ approx_ratio,0,92
+model=gnm_size=small(n≤10),approx_ratio,4,approx_ratio ≤ ((((-2/7) · (assortativity)²) + ((-4/17) · assortativity)) + (16/17)),0,92
+model=gnm_size=small(n≤10),approx_ratio,5,approx_ratio ≤ (19/20),0,92
+model=gnm_size=small(n≤10),mean_n_obj_calls,1,(((4 · (clust_mean)²) + (4 · clust_mean)) + 4) ≤ mean_n_obj_calls,0,92
+model=gnm_size=small(n≤10),mean_n_obj_calls,2,(((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls,0,92
+model=gnm_size=small(n≤10),mean_n_obj_calls,3,((((5/14) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,92
+model=gnm_size=medium(n≤15),optimal_gamma,1,(((-4 · (mis)²) + ((-38/11) · mis)) + (41/17)) ≤ optimal_gamma,0,91
+model=gnm_size=medium(n≤15),optimal_gamma,2,(((3/16) · deg_mean) + (-11/15)) ≤ optimal_gamma,0,91
+model=gnm_size=medium(n≤15),optimal_gamma,3,optimal_gamma ≤ (((4 · (mis)²) + ((-42/19) · mis)) + (17/5)),0,91
+model=gnm_size=medium(n≤15),optimal_gamma,4,optimal_gamma ≤ (25/8),0,91
+model=gnm_size=medium(n≤15),optimal_gamma,5,(((1/20) · deg_mean) + ((1/16) · √(deg_mean))) ≤ optimal_gamma,0,91
+model=gnm_size=medium(n≤15),approx_ratio,1,((((2/3) · (assortativity)²) + ((1/16) · assortativity)) + (13/17)) ≤ approx_ratio,0,91
+model=gnm_size=medium(n≤15),approx_ratio,2,approx_ratio ≤ ((-(assortativity)² + ((-1/3) · assortativity)) + (13/14)),0,91
+model=gnm_size=medium(n≤15),approx_ratio,3,(((1/20) · deg_mean) + ((1/8) · √(deg_mean))) ≤ approx_ratio,0,91
+model=gnm_size=medium(n≤15),approx_ratio,4,(((1/20) · deg_mean) + ((3/5) · √(mis))) ≤ approx_ratio,0,91
+model=gnm_size=medium(n≤15),approx_ratio,5,(((1/20) · deg_mean) + ((2/19) · √(n))) ≤ approx_ratio,0,91
+model=gnm_size=medium(n≤15),mean_n_obj_calls,1,(((4 · (clust_mean)²) + (4 · clust_mean)) + 4) ≤ mean_n_obj_calls,0,91
+model=gnm_size=medium(n≤15),mean_n_obj_calls,2,(((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls,0,91
+model=gnm_size=medium(n≤15),mean_n_obj_calls,3,((((5/2) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,91
+model=gnm_size=large(n≤20),optimal_gamma,1,(((-4 · (mis)²) + (-4 · mis)) + (48/17)) ≤ optimal_gamma,0,94
+model=gnm_size=large(n≤20),optimal_gamma,2,(((8/17) · deg_mean) + -1) ≤ optimal_gamma,0,94
+model=gnm_size=large(n≤20),optimal_gamma,3,((((-13/14) · (clust_mean)²) + (4 · clust_mean)) + (-7/17)) ≤ optimal_gamma,0,94
+model=gnm_size=large(n≤20),optimal_gamma,4,(((6/11) · n) + -4) ≤ optimal_gamma,0,94
+model=gnm_size=large(n≤20),optimal_gamma,5,optimal_gamma ≤ ((((25/9) · (mis)²) + ((-23/15) · mis)) + (13/4)),0,94
+model=gnm_size=large(n≤20),approx_ratio,1,(5/8) ≤ approx_ratio,0,94
+model=gnm_size=large(n≤20),approx_ratio,2,((((7/13) · (clust_mean)²) + ((-8/19) · clust_mean)) + (4/5)) ≤ approx_ratio,0,94
+model=gnm_size=large(n≤20),approx_ratio,3,((((69/19) · (mis)²) + ((-15/7) · mis)) + (21/20)) ≤ approx_ratio,0,94
+model=gnm_size=large(n≤20),approx_ratio,4,approx_ratio ≤ (15/16),0,94
+model=gnm_size=large(n≤20),approx_ratio,5,approx_ratio ≤ ((((1/6) · (clust_mean)²) + ((-1/7) · clust_mean)) + (17/18)),0,94
+model=gnm_size=large(n≤20),mean_n_obj_calls,1,((4 · m) + 4) ≤ mean_n_obj_calls,0,94
+model=gnm_size=large(n≤20),mean_n_obj_calls,2,((((7/6) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,94
+model=regular_size=small(n≤10),optimal_gamma,1,((((1/15) · (n)²) + -n) + 4) ≤ optimal_gamma,0,65
+model=regular_size=small(n≤10),optimal_gamma,2,((((-1/2) · (deg_mean)²) + ((35/11) · deg_mean)) + -4) ≤ optimal_gamma,0,65
+model=regular_size=small(n≤10),optimal_gamma,3,((((13/4) · (mis)²) + (-4 · mis)) + (29/19)) ≤ optimal_gamma,0,65
+model=regular_size=small(n≤10),optimal_gamma,4,optimal_gamma ≤ (((-4/19) · n) + 4),0,65
+model=regular_size=small(n≤10),optimal_gamma,5,(((1/10) · deg_mean) + ((2/15) · √(deg_mean))) ≤ optimal_gamma,0,65
+model=regular_size=small(n≤10),approx_ratio,1,approx_ratio ≤ ((1/2) · deg_mean),9,65
+model=regular_size=small(n≤10),approx_ratio,2,approx_ratio ≤ 1,9,65
+model=regular_size=small(n≤10),approx_ratio,3,approx_ratio ≤ ((1/6) · n),4,65
+model=regular_size=small(n≤10),approx_ratio,4,approx_ratio ≤ (19/20),0,65
+model=regular_size=small(n≤10),approx_ratio,5,(((-1/14) · clust_mean) + (8/9)) ≤ approx_ratio,0,65
+model=regular_size=small(n≤10),mean_n_obj_calls,1,(((4 · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,65
+model=regular_size=small(n≤10),mean_n_obj_calls,2,((((24/11) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,65
+model=regular_size=medium(n≤15),optimal_gamma,1,((((-7/18) · (deg_mean)²) + (3 · deg_mean)) + -4) ≤ optimal_gamma,0,57
+model=regular_size=medium(n≤15),optimal_gamma,2,(((-4 · (mis)²) + (-4 · mis)) + (43/15)) ≤ optimal_gamma,0,57
+model=regular_size=medium(n≤15),optimal_gamma,3,optimal_gamma ≤ ((((-3/4) · (deg_mean)²) + (4 · deg_mean)) + (-23/10)),0,57
+model=regular_size=medium(n≤15),optimal_gamma,4,(((2/19) · deg_mean) + ((3/20) · √(deg_mean))) ≤ optimal_gamma,0,57
+model=regular_size=medium(n≤15),optimal_gamma,5,(((2/19) · deg_mean) + ((1/19) · (deg_mean)²)) ≤ optimal_gamma,0,57
+model=regular_size=medium(n≤15),approx_ratio,1,((((19/10) · (mis)²) + ((-23/15) · mis)) + (20/17)) ≤ approx_ratio,0,57
+model=regular_size=medium(n≤15),approx_ratio,2,approx_ratio ≤ ((((9/10) · (mis)²) + ((-4/7) · mis)) + (19/18)),0,57
+model=regular_size=medium(n≤15),approx_ratio,3,approx_ratio ≤ (((-1/12) · n) + (29/19)),0,57
+model=regular_size=medium(n≤15),approx_ratio,4,(((1/9) · deg_mean) + ((2/9) · √(deg_mean))) ≤ approx_ratio,0,57
+model=regular_size=medium(n≤15),approx_ratio,5,(((1/9) · deg_mean) + ((1/20) · (deg_mean)²)) ≤ approx_ratio,0,57
+model=regular_size=medium(n≤15),mean_n_obj_calls,1,(((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls,0,57
+model=regular_size=large(n≤20),optimal_gamma,1,((((-7/18) · (deg_mean)²) + (3 · deg_mean)) + -4) ≤ optimal_gamma,0,67
+model=regular_size=large(n≤20),optimal_gamma,2,(((-4 · (mis)²) + (-4 · mis)) + (41/14)) ≤ optimal_gamma,0,67
+model=regular_size=large(n≤20),optimal_gamma,3,optimal_gamma ≤ ((((-3/4) · (deg_mean)²) + (4 · deg_mean)) + (-24/11)),0,67
+model=regular_size=large(n≤20),optimal_gamma,4,optimal_gamma ≤ ((((-41/11) · (mis)²) + (4 · mis)) + (41/20)),0,67
+model=regular_size=large(n≤20),optimal_gamma,5,(((2/19) · deg_mean) + ((3/20) · √(deg_mean))) ≤ optimal_gamma,0,67
+model=regular_size=large(n≤20),approx_ratio,1,(((4 · (mis)²) + ((-49/18) · mis)) + (13/10)) ≤ approx_ratio,0,67
+model=regular_size=large(n≤20),approx_ratio,2,((((31/13) · (clust_mean)²) + ((-5/7) · clust_mean)) + (15/17)) ≤ approx_ratio,0,67
+model=regular_size=large(n≤20),approx_ratio,3,approx_ratio ≤ (((2/15) · deg_mean) + (3/4)),0,67
+model=regular_size=large(n≤20),approx_ratio,4,(((1/9) · deg_mean) + ((2/9) · √(deg_mean))) ≤ approx_ratio,0,67
+model=regular_size=large(n≤20),approx_ratio,5,(((1/9) · deg_mean) + ((1/20) · (deg_mean)²)) ≤ approx_ratio,0,67
+model=regular_size=large(n≤20),mean_n_obj_calls,1,(((4 · (deg_mean)²) + (4 · deg_mean)) + 4) ≤ mean_n_obj_calls,0,67
+model=regular_size=large(n≤20),mean_n_obj_calls,2,((((5/14) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,67
+model=watts_size=small(n≤10),optimal_gamma,1,((((1/18) · (n)²) + -n) + 4) ≤ optimal_gamma,0,95
+model=watts_size=small(n≤10),optimal_gamma,2,((((13/4) · (clust_mean)²) + ((19/18) · clust_mean)) + (-1/2)) ≤ optimal_gamma,0,95
+model=watts_size=small(n≤10),optimal_gamma,3,optimal_gamma ≤ (((-2/15) · n) + (44/13)),0,95
+model=watts_size=small(n≤10),optimal_gamma,4,(((-1/8) · deg_mean) + ((-3/17) · √(deg_mean))) ≤ optimal_gamma,0,95
+model=watts_size=small(n≤10),optimal_gamma,5,(((-1/8) · deg_mean) + ((-1/13) · √(n))) ≤ optimal_gamma,0,95
+model=watts_size=small(n≤10),approx_ratio,1,approx_ratio ≤ ((1/2) · deg_mean),4,95
+model=watts_size=small(n≤10),approx_ratio,2,approx_ratio ≤ 1,4,95
+model=watts_size=small(n≤10),approx_ratio,3,approx_ratio ≤ (((-4/11) · √(assortativity)) + 1),4,95
+model=watts_size=small(n≤10),approx_ratio,4,approx_ratio ≤ ((((-1/3) · clust_mean) + ((-1/10) · √(assortativity))) + 1),4,95
+model=watts_size=small(n≤10),approx_ratio,5,approx_ratio ≤ ((((-1/19) · assortativity) + ((-1/16) · √(clust_mean))) + 1),4,95
+model=watts_size=small(n≤10),mean_n_obj_calls,1,(((4 · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,95
+model=watts_size=small(n≤10),mean_n_obj_calls,2,((((10/7) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,95
+model=watts_size=medium(n≤15),optimal_gamma,1,optimal_gamma ≤ ((((-2/3) · (deg_mean)²) + (4 · deg_mean)) + (-16/7)),0,95
+model=watts_size=medium(n≤15),optimal_gamma,2,optimal_gamma ≤ ((((-9/16) · (clust_mean)²) + ((3/16) · clust_mean)) + (61/20)),0,95
+model=watts_size=medium(n≤15),optimal_gamma,3,(((4 · (clust_mean)²) + ((9/14) · clust_mean)) + (-1/2)) ≤ optimal_gamma,0,95
+model=watts_size=medium(n≤15),optimal_gamma,4,((⌈((-1/8) · deg_mean)⌉ + ⌈((-3/17) · √(deg_mean))⌉) - 1) ≤ optimal_gamma,0,95
+model=watts_size=medium(n≤15),optimal_gamma,5,(((-1/8) · deg_mean) + ((-1/16) · (deg_mean)²)) ≤ optimal_gamma,0,95
+model=watts_size=medium(n≤15),approx_ratio,1,(((-10/19) · n) + 4) ≤ approx_ratio,0,95
+model=watts_size=medium(n≤15),approx_ratio,2,approx_ratio ≤ (((-3/16) · n) + (35/16)),0,95
+model=watts_size=medium(n≤15),approx_ratio,3,(((1/11) · deg_mean) + ((2/11) · √(deg_mean))) ≤ approx_ratio,0,95
+model=watts_size=medium(n≤15),approx_ratio,4,(((1/11) · deg_mean) + ((10/19) · √(mis))) ≤ approx_ratio,0,95
+model=watts_size=medium(n≤15),approx_ratio,5,(((1/11) · deg_mean) + ((2/19) · √(n))) ≤ approx_ratio,0,95
+model=watts_size=medium(n≤15),mean_n_obj_calls,1,((((9/14) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,95
+model=watts_size=medium(n≤15),mean_n_obj_calls,2,((((27/11) · (n)²) + (4 · n)) + 4) ≤ mean_n_obj_calls,0,95
+model=watts_size=large(n≤20),optimal_gamma,1,optimal_gamma ≤ ((((-2/3) · (deg_mean)²) + (4 · deg_mean)) + (-11/5)),0,87
+model=watts_size=large(n≤20),optimal_gamma,2,(((-1/8) · deg_mean) + ((-2/11) · √(deg_mean))) ≤ optimal_gamma,0,87
+model=watts_size=large(n≤20),optimal_gamma,3,(((-1/8) · deg_mean) + ((-1/16) · (deg_mean)²)) ≤ optimal_gamma,0,87
+model=watts_size=large(n≤20),optimal_gamma,4,(((-1/8) · deg_mean) + ((-1/17) · √(n))) ≤ optimal_gamma,0,87
+model=watts_size=large(n≤20),optimal_gamma,5,((-1/8) · deg_mean) ≤ optimal_gamma,0,87
+model=watts_size=large(n≤20),approx_ratio,1,((((-3/10) · (clust_mean)²) + ((6/19) · clust_mean)) + (8/11)) ≤ approx_ratio,0,87
+model=watts_size=large(n≤20),approx_ratio,2,(19/20) ≤ approx_ratio,0,87
+model=watts_size=large(n≤20),approx_ratio,3,approx_ratio ≤ ((((9/13) · (clust_mean)²) + ((-1/5) · clust_mean)) + (12/13)),0,87
+model=watts_size=large(n≤20),approx_ratio,4,approx_ratio ≤ ((((-5/3) · (mis)²) + ((4/3) · mis)) + (2/3)),0,87
+model=watts_size=large(n≤20),approx_ratio,5,approx_ratio ≤ ((((-8/13) · (deg_mean)²) + ((59/16) · deg_mean)) + -4),0,87
+model=watts_size=large(n≤20),mean_n_obj_calls,1,((((5/16) · (m)²) + (4 · m)) + 4) ≤ mean_n_obj_calls,0,87
